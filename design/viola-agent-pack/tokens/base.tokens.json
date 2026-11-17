@@ -1,0 +1,1023 @@
+{
+  "$description": "Viola UI type, spacing, radius, sizing and shadows. The same in every mode.",
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "$value": [
+        "Geist",
+        "system-ui",
+        "sans-serif"
+      ],
+      "$extensions": {
+        "com.violaui": {
+          "figma": "font/family",
+          "web": "var(--font-family)"
+        }
+      }
+    }
+  },
+  "weight": {
+    "regular": {
+      "$type": "fontWeight",
+      "$value": 400,
+      "$extensions": {
+        "com.violaui": {
+          "figma": "weight/regular",
+          "web": "var(--weight-regular)"
+        }
+      }
+    },
+    "medium": {
+      "$type": "fontWeight",
+      "$value": 500,
+      "$extensions": {
+        "com.violaui": {
+          "figma": "weight/medium",
+          "web": "var(--weight-medium)"
+        }
+      }
+    },
+    "semibold": {
+      "$type": "fontWeight",
+      "$value": 600,
+      "$extensions": {
+        "com.violaui": {
+          "figma": "weight/semibold",
+          "web": "var(--weight-semibold)"
+        }
+      }
+    },
+    "bold": {
+      "$type": "fontWeight",
+      "$value": 700,
+      "$extensions": {
+        "com.violaui": {
+          "figma": "weight/bold",
+          "web": "var(--weight-bold)"
+        }
+      }
+    },
+    "extrabold": {
+      "$type": "fontWeight",
+      "$value": 800,
+      "$extensions": {
+        "com.violaui": {
+          "figma": "weight/extrabold",
+          "web": "var(--weight-extrabold)"
+        }
+      }
+    }
+  },
+  "size": {
+    "caption": {
+      "$type": "dimension",
+      "$value": {
+        "value": 11,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "size/caption",
+          "web": "var(--size-caption)"
+        }
+      }
+    },
+    "label": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "size/label",
+          "web": "var(--size-label)"
+        }
+      }
+    },
+    "number": {
+      "$type": "dimension",
+      "$value": {
+        "value": 13,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "size/number",
+          "web": "var(--size-number)"
+        }
+      }
+    },
+    "body": {
+      "$type": "dimension",
+      "$value": {
+        "value": 14,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "size/body",
+          "web": "var(--size-body)"
+        }
+      }
+    },
+    "title": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "size/title",
+          "web": "var(--size-title)"
+        }
+      }
+    },
+    "subheading": {
+      "$type": "dimension",
+      "$value": {
+        "value": 18,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "size/subheading",
+          "web": "var(--size-subheading)"
+        }
+      }
+    },
+    "heading": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "size/heading",
+          "web": "var(--size-heading)"
+        }
+      }
+    },
+    "display": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "size/display",
+          "web": "var(--size-display)"
+        }
+      }
+    }
+  },
+  "space": {
+    "1": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "space/1",
+          "web": "var(--space-1)"
+        }
+      }
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "space/2",
+          "web": "var(--space-2)"
+        }
+      }
+    },
+    "3": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "space/3",
+          "web": "var(--space-3)"
+        }
+      }
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "space/4",
+          "web": "var(--space-4)"
+        }
+      }
+    },
+    "5": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "space/5",
+          "web": "var(--space-5)"
+        }
+      }
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "space/6",
+          "web": "var(--space-6)"
+        }
+      }
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "space/8",
+          "web": "var(--space-8)"
+        }
+      }
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "space/12",
+          "web": "var(--space-12)"
+        }
+      }
+    }
+  },
+  "radius": {
+    "xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "radius/xs",
+          "web": "var(--radius-xs)"
+        }
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "radius/sm",
+          "web": "var(--radius-sm)"
+        }
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "radius/md",
+          "web": "var(--radius-md)"
+        }
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": {
+        "value": 10,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "radius/lg",
+          "web": "var(--radius-lg)"
+        }
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "radius/xl",
+          "web": "var(--radius-xl)"
+        }
+      }
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": {
+        "value": 999,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "radius/full",
+          "web": "var(--radius-full)"
+        }
+      }
+    }
+  },
+  "sizing": {
+    "icon": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "sizing/icon",
+          "web": "var(--sizing-icon)"
+        }
+      }
+    },
+    "icon-lg": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "sizing/icon-lg",
+          "web": "var(--sizing-icon-lg)"
+        }
+      }
+    },
+    "control": {
+      "$type": "dimension",
+      "$value": {
+        "value": 36,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "sizing/control",
+          "web": "var(--sizing-control)"
+        }
+      }
+    },
+    "control-lg": {
+      "$type": "dimension",
+      "$value": {
+        "value": 44,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "sizing/control-lg",
+          "web": "var(--sizing-control-lg)"
+        }
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "hero": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 32,
+            "unit": "px"
+          },
+          "fontWeight": 800,
+          "lineHeight": 1.25,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "display/hero",
+            "lineHeightPx": 40,
+            "tabularNums": true
+          }
+        }
+      }
+    },
+    "heading": {
+      "page": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 24,
+            "unit": "px"
+          },
+          "fontWeight": 800,
+          "lineHeight": 1.3333,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "heading/page",
+            "lineHeightPx": 32,
+            "tabularNums": false
+          }
+        }
+      }
+    },
+    "subheading": {
+      "stat": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 18,
+            "unit": "px"
+          },
+          "fontWeight": 600,
+          "lineHeight": 1.3333,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "subheading/stat",
+            "lineHeightPx": 24,
+            "tabularNums": false
+          }
+        }
+      },
+      "glyph": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 18,
+            "unit": "px"
+          },
+          "fontWeight": 800,
+          "lineHeight": 1.3333,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "subheading/glyph",
+            "lineHeightPx": 24,
+            "tabularNums": false
+          }
+        }
+      }
+    },
+    "title": {
+      "card": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 16,
+            "unit": "px"
+          },
+          "fontWeight": 700,
+          "lineHeight": 1.375,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "title/card",
+            "lineHeightPx": 22,
+            "tabularNums": false
+          }
+        }
+      },
+      "brand": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 16,
+            "unit": "px"
+          },
+          "fontWeight": 800,
+          "lineHeight": 1.375,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "title/brand",
+            "lineHeightPx": 22,
+            "tabularNums": false
+          }
+        }
+      }
+    },
+    "number": {
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 16,
+            "unit": "px"
+          },
+          "fontWeight": 600,
+          "lineHeight": 1.375,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "number/large",
+            "lineHeightPx": 22,
+            "tabularNums": true
+          }
+        }
+      },
+      "table": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 13,
+            "unit": "px"
+          },
+          "fontWeight": 600,
+          "lineHeight": 1.3846,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "number/table",
+            "lineHeightPx": 18,
+            "tabularNums": true
+          }
+        }
+      },
+      "emphasis": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 13,
+            "unit": "px"
+          },
+          "fontWeight": 700,
+          "lineHeight": 1.3846,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "number/emphasis",
+            "lineHeightPx": 18,
+            "tabularNums": true
+          }
+        }
+      }
+    },
+    "body": {
+      "strong": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 14,
+            "unit": "px"
+          },
+          "fontWeight": 600,
+          "lineHeight": 1.4286,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "body/strong",
+            "lineHeightPx": 20,
+            "tabularNums": false
+          }
+        }
+      },
+      "default": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 14,
+            "unit": "px"
+          },
+          "fontWeight": 500,
+          "lineHeight": 1.4286,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "body/default",
+            "lineHeightPx": 20,
+            "tabularNums": false
+          }
+        }
+      },
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 13,
+            "unit": "px"
+          },
+          "fontWeight": 500,
+          "lineHeight": 1.3846,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "body/small",
+            "lineHeightPx": 18,
+            "tabularNums": false
+          }
+        }
+      },
+      "small-regular": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 13,
+            "unit": "px"
+          },
+          "fontWeight": 400,
+          "lineHeight": 1.3846,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "body/small-regular",
+            "lineHeightPx": 18,
+            "tabularNums": false
+          }
+        }
+      }
+    },
+    "label": {
+      "strong": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 12,
+            "unit": "px"
+          },
+          "fontWeight": 600,
+          "lineHeight": 1.3333,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "label/strong",
+            "lineHeightPx": 16,
+            "tabularNums": false
+          }
+        }
+      },
+      "default": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 12,
+            "unit": "px"
+          },
+          "fontWeight": 500,
+          "lineHeight": 1.3333,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "label/default",
+            "lineHeightPx": 16,
+            "tabularNums": false
+          }
+        }
+      }
+    },
+    "caption": {
+      "strong": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 11,
+            "unit": "px"
+          },
+          "fontWeight": 600,
+          "lineHeight": 1.2727,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "caption/strong",
+            "lineHeightPx": 14,
+            "tabularNums": false
+          }
+        }
+      },
+      "emphasis": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 11,
+            "unit": "px"
+          },
+          "fontWeight": 700,
+          "lineHeight": 1.2727,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "caption/emphasis",
+            "lineHeightPx": 14,
+            "tabularNums": false
+          }
+        }
+      },
+      "medium": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 11,
+            "unit": "px"
+          },
+          "fontWeight": 500,
+          "lineHeight": 1.2727,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "caption/medium",
+            "lineHeightPx": 14,
+            "tabularNums": false
+          }
+        }
+      },
+      "default": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 11,
+            "unit": "px"
+          },
+          "fontWeight": 400,
+          "lineHeight": 1.2727,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "caption/default",
+            "lineHeightPx": 14,
+            "tabularNums": false
+          }
+        }
+      }
+    },
+    "marketing": {
+      "display": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 56,
+            "unit": "px"
+          },
+          "fontWeight": 800,
+          "lineHeight": 1.1071,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "marketing/display",
+            "lineHeightPx": 62,
+            "tabularNums": false
+          }
+        },
+        "$description": "Hero headline on marketing pages. Not for app UI."
+      },
+      "heading": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 34,
+            "unit": "px"
+          },
+          "fontWeight": 800,
+          "lineHeight": 1.1765,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "marketing/heading",
+            "lineHeightPx": 40,
+            "tabularNums": false
+          }
+        },
+        "$description": "Section heading on marketing pages."
+      },
+      "quote": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 26,
+            "unit": "px"
+          },
+          "fontWeight": 600,
+          "lineHeight": 1.3846,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "marketing/quote",
+            "lineHeightPx": 36,
+            "tabularNums": false
+          }
+        },
+        "$description": "Pull quote / testimonial on marketing pages."
+      },
+      "lead": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family}",
+          "fontSize": {
+            "value": 18,
+            "unit": "px"
+          },
+          "fontWeight": 500,
+          "lineHeight": 1.5556,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "com.violaui": {
+            "figma": "marketing/lead",
+            "lineHeightPx": 28,
+            "tabularNums": false
+          }
+        },
+        "$description": "Lead paragraph under a marketing headline."
+      }
+    }
+  },
+  "shadow": {
+    "floating": {
+      "$type": "shadow",
+      "$value": {
+        "color": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0588,
+            0.0902,
+            0.1647
+          ],
+          "alpha": 0.06,
+          "hex": "#0f172a"
+        },
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 4,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 16,
+          "unit": "px"
+        },
+        "spread": {
+          "value": 0,
+          "unit": "px"
+        }
+      },
+      "$extensions": {
+        "com.violaui": {
+          "figma": "elevation/floating"
+        }
+      }
+    }
+  },
+  "blur": {
+    "backdrop-blur": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$description": "Background blur radius",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "overlay/backdrop-blur"
+        }
+      }
+    }
+  }
+}

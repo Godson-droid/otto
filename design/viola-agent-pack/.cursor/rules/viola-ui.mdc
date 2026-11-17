@@ -1,0 +1,14 @@
+---
+description: Viola UI tokens, text styles and number rules for finance screens
+alwaysApply: true
+---
+
+This project uses Viola UI. Full rules are in AGENTS.md, tokens in @tokens/tokens.md, components in @components.md and sample figures in @data/portfolio.md. Read them before writing UI code.
+
+- Every colour is a Viola token: Figma `bg/surface` is `--bg-surface` and the Tailwind class `bg-bg-surface`. No hex, no `rgb()`, no palette classes such as `slate-500`.
+- Dark mode is the `.dark` class on `<html>`. No `dark:` variants.
+- Green (`positive`) and red (`negative`) only for gains and losses. Actions, links and active states use `accent`.
+- Text uses the Geist text styles (`text-number-table`, `text-body-default` and so on), not pixel sizes.
+- Amounts and percentages use `tabular-nums`. Gains carry `+`, losses use the minus sign (−). Every total shows its currency.
+- Never invent, round or recalculate a figure. If one is missing, say so.
+- If a design value has no matching token, name it in your summary instead of inventing one.

@@ -1,0 +1,850 @@
+{
+  "$description": "Viola UI colours, Light mode. Same names in every mode file; only values differ.",
+  "bg": {
+    "page": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9725,
+          0.9765,
+          0.9882
+        ],
+        "alpha": 1,
+        "hex": "#f8f9fc"
+      },
+      "$description": "Page background behind cards",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "bg/page",
+          "web": "var(--bg-page)"
+        }
+      }
+    },
+    "surface": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#ffffff"
+      },
+      "$description": "Cards, panels, tables",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "bg/surface",
+          "web": "var(--bg-surface)"
+        }
+      }
+    },
+    "surface-subtle": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9725,
+          0.9765,
+          0.9882
+        ],
+        "alpha": 1,
+        "hex": "#f8f9fc"
+      },
+      "$description": "Table headers, inset fields, insight cards",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "bg/surface-subtle",
+          "web": "var(--bg-surface-subtle)"
+        }
+      }
+    },
+    "sidebar": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#ffffff"
+      },
+      "$description": "Left navigation",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "bg/sidebar",
+          "web": "var(--bg-sidebar)"
+        }
+      }
+    },
+    "hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9451,
+          0.9608,
+          0.9765
+        ],
+        "alpha": 1,
+        "hex": "#f1f5f9"
+      },
+      "$description": "Row and item hover",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "bg/hover",
+          "web": "var(--bg-hover)"
+        }
+      }
+    }
+  },
+  "border": {
+    "default": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8863,
+          0.9098,
+          0.9412
+        ],
+        "alpha": 1,
+        "hex": "#e2e8f0"
+      },
+      "$description": "Card, input and panel borders",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "border/default",
+          "web": "var(--border-default)"
+        }
+      }
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9451,
+          0.9608,
+          0.9765
+        ],
+        "alpha": 1,
+        "hex": "#f1f5f9"
+      },
+      "$description": "Row dividers inside tables and lists",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "border/subtle",
+          "web": "var(--border-subtle)"
+        }
+      }
+    }
+  },
+  "text": {
+    "primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0588,
+          0.0902,
+          0.1647
+        ],
+        "alpha": 1,
+        "hex": "#0f172a"
+      },
+      "$description": "Headings, figures, body",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "text/primary",
+          "web": "var(--text-primary)"
+        }
+      }
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2784,
+          0.3333,
+          0.4118
+        ],
+        "alpha": 1,
+        "hex": "#475569"
+      },
+      "$description": "Supporting text",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "text/secondary",
+          "web": "var(--text-secondary)"
+        }
+      }
+    },
+    "muted": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3922,
+          0.4549,
+          0.5451
+        ],
+        "alpha": 1,
+        "hex": "#64748b"
+      },
+      "$description": "Labels, captions, table headers",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "text/muted",
+          "web": "var(--text-muted)"
+        }
+      }
+    },
+    "nav-inactive": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3922,
+          0.4549,
+          0.5451
+        ],
+        "alpha": 1,
+        "hex": "#64748b"
+      },
+      "$description": "Inactive nav items and tabs",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "text/nav-inactive",
+          "web": "var(--text-nav-inactive)"
+        }
+      }
+    },
+    "on-accent": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alpha": 1,
+        "hex": "#ffffff"
+      },
+      "$description": "Text on accent fills",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "text/on-accent",
+          "web": "var(--text-on-accent)"
+        }
+      }
+    },
+    "link": {
+      "$type": "color",
+      "$value": "{accent.primary}",
+      "$description": "Links (alias of accent/primary)",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "text/link",
+          "web": "var(--text-link)"
+        }
+      }
+    }
+  },
+  "accent": {
+    "primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3882,
+          0.4,
+          0.9451
+        ],
+        "alpha": 1,
+        "hex": "#6366f1"
+      },
+      "$description": "Primary actions, links, active states, AI. Never money",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "accent/primary",
+          "web": "var(--accent-primary)"
+        }
+      }
+    },
+    "primary-subtle": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9333,
+          0.949,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#eef2ff"
+      },
+      "$description": "Active nav and tab backgrounds, AI surfaces",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "accent/primary-subtle",
+          "web": "var(--accent-primary-subtle)"
+        }
+      }
+    },
+    "primary-hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3333,
+          0.3451,
+          0.8902
+        ],
+        "alpha": 1,
+        "hex": "#5558e3"
+      },
+      "$description": "Primary hover",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "accent/primary-hover",
+          "web": "var(--accent-primary-hover)"
+        }
+      }
+    },
+    "primary-active": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2941,
+          0.3059,
+          0.8392
+        ],
+        "alpha": 1,
+        "hex": "#4b4ed6"
+      },
+      "$description": "Primary pressed",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "accent/primary-active",
+          "web": "var(--accent-primary-active)"
+        }
+      }
+    },
+    "primary-border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7804,
+          0.8235,
+          0.9961
+        ],
+        "alpha": 1,
+        "hex": "#c7d2fe"
+      },
+      "$description": "Accent outlines",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "accent/primary-border",
+          "web": "var(--accent-primary-border)"
+        }
+      }
+    }
+  },
+  "semantic": {
+    "positive": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0157,
+          0.4706,
+          0.3412
+        ],
+        "alpha": 1,
+        "hex": "#047857"
+      },
+      "$description": "Gains only",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "semantic/positive",
+          "web": "var(--semantic-positive)"
+        }
+      }
+    },
+    "positive-subtle": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9255,
+          0.9922,
+          0.9608
+        ],
+        "alpha": 1,
+        "hex": "#ecfdf5"
+      },
+      "$description": "Background behind a gain tag",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "semantic/positive-subtle",
+          "web": "var(--semantic-positive-subtle)"
+        }
+      }
+    },
+    "positive-border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6549,
+          0.9529,
+          0.8157
+        ],
+        "alpha": 1,
+        "hex": "#a7f3d0"
+      },
+      "$description": "Border of a gain tag",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "semantic/positive-border",
+          "web": "var(--semantic-positive-border)"
+        }
+      }
+    },
+    "negative": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8627,
+          0.149,
+          0.149
+        ],
+        "alpha": 1,
+        "hex": "#dc2626"
+      },
+      "$description": "Losses, and destructive actions",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "semantic/negative",
+          "web": "var(--semantic-negative)"
+        }
+      }
+    },
+    "warning": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.851,
+          0.4667,
+          0.0235
+        ],
+        "alpha": 1,
+        "hex": "#d97706"
+      },
+      "$description": "Warnings that are not about gains or losses",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "semantic/warning",
+          "web": "var(--semantic-warning)"
+        }
+      }
+    },
+    "warning-subtle": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9961,
+          0.9529,
+          0.7804
+        ],
+        "alpha": 1,
+        "hex": "#fef3c7"
+      },
+      "$description": "Warning background",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "semantic/warning-subtle",
+          "web": "var(--semantic-warning-subtle)"
+        }
+      }
+    },
+    "warning-border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9922,
+          0.902,
+          0.5412
+        ],
+        "alpha": 1,
+        "hex": "#fde68a"
+      },
+      "$description": "Warning border",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "semantic/warning-border",
+          "web": "var(--semantic-warning-border)"
+        }
+      }
+    },
+    "negative-subtle": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9961,
+          0.8863,
+          0.8863
+        ],
+        "alpha": 1,
+        "hex": "#fee2e2"
+      },
+      "$description": "Background behind a loss tag",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "semantic/negative-subtle",
+          "web": "var(--semantic-negative-subtle)"
+        }
+      }
+    },
+    "negative-border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9961,
+          0.7922,
+          0.7922
+        ],
+        "alpha": 1,
+        "hex": "#fecaca"
+      },
+      "$description": "Border of a loss tag",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "semantic/negative-border",
+          "web": "var(--semantic-negative-border)"
+        }
+      }
+    }
+  },
+  "button": {
+    "secondary-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#ffffff"
+      },
+      "$description": "Secondary button fill",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "button/secondary-bg",
+          "web": "var(--button-secondary-bg)"
+        }
+      }
+    }
+  },
+  "chart": {
+    "line-portfolio": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2314,
+          0.5098,
+          0.9647
+        ],
+        "alpha": 1,
+        "hex": "#3b82f6"
+      },
+      "$description": "Portfolio line",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/line-portfolio",
+          "web": "var(--chart-line-portfolio)"
+        }
+      }
+    },
+    "line-benchmark": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3922,
+          0.4549,
+          0.5451
+        ],
+        "alpha": 1,
+        "hex": "#64748b"
+      },
+      "$description": "Benchmark line",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/line-benchmark",
+          "web": "var(--chart-line-benchmark)"
+        }
+      }
+    },
+    "baseline": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8863,
+          0.9098,
+          0.9412
+        ],
+        "alpha": 1,
+        "hex": "#e2e8f0"
+      },
+      "$description": "Chart gridlines and baselines",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/baseline",
+          "web": "var(--chart-baseline)"
+        }
+      }
+    },
+    "spark-tint-positive": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.949,
+          1,
+          0.949
+        ],
+        "alpha": 1,
+        "hex": "#f2fff2"
+      },
+      "$description": "Fill under a rising sparkline",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/spark-tint-positive",
+          "web": "var(--chart-spark-tint-positive)"
+        }
+      }
+    },
+    "spark-tint-negative": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9294,
+          0.9294
+        ],
+        "alpha": 1,
+        "hex": "#ffeded"
+      },
+      "$description": "Fill under a falling sparkline",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/spark-tint-negative",
+          "web": "var(--chart-spark-tint-negative)"
+        }
+      }
+    },
+    "donut-1": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3882,
+          0.4,
+          0.9451
+        ],
+        "alpha": 1,
+        "hex": "#6366f1"
+      },
+      "$description": "Allocation slice 1",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/donut-1",
+          "web": "var(--chart-donut-1)"
+        }
+      }
+    },
+    "donut-2": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5059,
+          0.549,
+          0.9725
+        ],
+        "alpha": 1,
+        "hex": "#818cf8"
+      },
+      "$description": "Allocation slice 2",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/donut-2",
+          "web": "var(--chart-donut-2)"
+        }
+      }
+    },
+    "donut-3": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6471,
+          0.7059,
+          0.9882
+        ],
+        "alpha": 1,
+        "hex": "#a5b4fc"
+      },
+      "$description": "Allocation slice 3",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/donut-3",
+          "web": "var(--chart-donut-3)"
+        }
+      }
+    },
+    "donut-4": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7804,
+          0.8235,
+          0.9961
+        ],
+        "alpha": 1,
+        "hex": "#c7d2fe"
+      },
+      "$description": "Allocation slice 4",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/donut-4",
+          "web": "var(--chart-donut-4)"
+        }
+      }
+    },
+    "donut-5": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8863,
+          0.9098,
+          0.9412
+        ],
+        "alpha": 1,
+        "hex": "#e2e8f0"
+      },
+      "$description": "Allocation slice 5 or remainder",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/donut-5",
+          "web": "var(--chart-donut-5)"
+        }
+      }
+    },
+    "candle-up": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0549,
+          0.6471,
+          0.6275
+        ],
+        "alpha": 1,
+        "hex": "#0ea5a0"
+      },
+      "$description": "Rising candle (not a P&L colour)",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/candle-up",
+          "web": "var(--chart-candle-up)"
+        }
+      }
+    },
+    "candle-down": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8784,
+          0.4196,
+          0.3686
+        ],
+        "alpha": 1,
+        "hex": "#e06b5e"
+      },
+      "$description": "Falling candle (not a P&L colour)",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "chart/candle-down",
+          "web": "var(--chart-candle-down)"
+        }
+      }
+    }
+  },
+  "icon": {
+    "muted": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5804,
+          0.6392,
+          0.7216
+        ],
+        "alpha": 1,
+        "hex": "#94a3b8"
+      },
+      "$description": "Secondary icons",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "icon/muted",
+          "web": "var(--icon-muted)"
+        }
+      }
+    },
+    "nav": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2,
+          0.2549,
+          0.3333
+        ],
+        "alpha": 1,
+        "hex": "#334155"
+      },
+      "$description": "Nav and card icons",
+      "$extensions": {
+        "com.violaui": {
+          "figma": "icon/nav",
+          "web": "var(--icon-nav)"
+        }
+      }
+    }
+  }
+}

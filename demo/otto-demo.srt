@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:03,297
+Freelancers and small merchants are starting to bill in stablecoins.
+
+2
+00:00:03,297 --> 00:00:11,541
+But the checkout most teams build on has a dangerous flaw: anyone can pay any amount on any order, and the order is marked paid.
+
+3
+00:00:11,541 --> 00:00:12,530
+Otto fixes that.
+
+4
+00:00:12,530 --> 00:00:15,168
+This is Otto, live on the Aevum testnet.
+
+5
+00:00:15,768 --> 00:00:18,435
+Every Otto bill is a signed quote.
+
+6
+00:00:18,435 --> 00:00:23,768
+The seller signs the invoice, the buyer's address, the exact amount and an expiry.
+
+7
+00:00:23,768 --> 00:00:27,577
+The contract checks all four before a single coin moves.
+
+8
+00:00:27,577 --> 00:00:34,053
+Pay the wrong amount, pay late, or pay from the wrong wallet, and the payment is rejected.
+
+9
+00:00:34,053 --> 00:00:36,720
+There is no paid flag to fool.
+
+10
+00:00:37,320 --> 00:00:39,023
+Requesting a payment takes seconds.
+
+11
+00:00:39,023 --> 00:00:45,496
+The seller enters the amount and the buyer's address, signs once, and shares a link or a scan code.
+
+12
+00:00:45,496 --> 00:00:51,288
+The link carries everything the buyer needs, and the amount on it cannot be changed by anyone.
+
+13
+00:00:51,888 --> 00:00:54,618
+The buyer does not even need the gas token.
+
+14
+00:00:54,618 --> 00:01:00,383
+They sign an authorisation on the token itself, a relayer sends it, and the contract records the exact amount.
+
+15
+00:01:00,383 --> 00:01:03,720
+This invoice was paid just now, while filming, through this page.
+
+16
+00:01:04,320 --> 00:01:09,272
+Otto also lets an AI agent pay bills for you, inside strict limits.
+
+17
+00:01:09,272 --> 00:01:19,177
+The owner sets a total cap, a cap per payment, an approved list of payees and an expiry, and can revoke the budget at any moment.
+
+18
+00:01:19,177 --> 00:01:22,605
+The agent's money never sits in the budget contract.
+
+19
+00:01:22,605 --> 00:01:25,272
+It moves only when every limit passes.
+
+20
+00:01:25,872 --> 00:01:27,118
+And the limits bite.
+
+21
+00:01:27,118 --> 00:01:31,167
+An agent payment of half a tUSD8 sat inside its budget and settled.
+
+22
+00:01:31,167 --> 00:01:38,020
+But when a payment of one tUSD8 broke the per payment cap of nought point seven five, the chain itself refused it.
+
+23
+00:01:38,020 --> 00:01:40,200
+Nothing settled, and the budget was untouched.
+
+24
+00:01:40,800 --> 00:01:51,424
+Otto is open source, with sixty eight passing tests, and every flow you have seen is live on the Aevum testnet, ready to check on the explorer.
+
+25
+00:01:51,424 --> 00:01:51,817
+Otto.
+
+26
+00:01:51,817 --> 00:01:53,391
+Exact bills, paid exactly.
+
+27
+00:01:53,391 --> 00:01:55,752
+Built for the Aevum Builder Challenge.

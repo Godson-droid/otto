@@ -1,0 +1,219 @@
+/* Viola UI tokens. Generated from tokens/*.tokens.json by scripts/build.mjs. Do not edit by hand. */
+:root {
+  --bg-page: #f8f9fc;
+  --bg-surface: #ffffff;
+  --bg-surface-subtle: #f8f9fc;
+  --bg-sidebar: #ffffff;
+  --bg-hover: #f1f5f9;
+  --border-default: #e2e8f0;
+  --border-subtle: #f1f5f9;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-nav-inactive: #64748b;
+  --text-on-accent: #ffffff;
+  --text-link: var(--accent-primary);
+  --accent-primary: #6366f1;
+  --accent-primary-subtle: #eef2ff;
+  --accent-primary-hover: #5558e3;
+  --accent-primary-active: #4b4ed6;
+  --accent-primary-border: #c7d2fe;
+  --semantic-positive: #047857;
+  --semantic-positive-subtle: #ecfdf5;
+  --semantic-positive-border: #a7f3d0;
+  --semantic-negative: #dc2626;
+  --semantic-warning: #d97706;
+  --semantic-warning-subtle: #fef3c7;
+  --semantic-warning-border: #fde68a;
+  --semantic-negative-subtle: #fee2e2;
+  --semantic-negative-border: #fecaca;
+  --button-secondary-bg: #ffffff;
+  --chart-line-portfolio: #3b82f6;
+  --chart-line-benchmark: #64748b;
+  --chart-baseline: #e2e8f0;
+  --chart-spark-tint-positive: #f2fff2;
+  --chart-spark-tint-negative: #ffeded;
+  --chart-donut-1: #6366f1;
+  --chart-donut-2: #818cf8;
+  --chart-donut-3: #a5b4fc;
+  --chart-donut-4: #c7d2fe;
+  --chart-donut-5: #e2e8f0;
+  --chart-candle-up: #0ea5a0;
+  --chart-candle-down: #e06b5e;
+  --icon-muted: #94a3b8;
+  --icon-nav: #334155;
+  --font-family: 'Geist', system-ui, sans-serif;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+  --size-caption: 11px;
+  --size-label: 12px;
+  --size-number: 13px;
+  --size-body: 14px;
+  --size-title: 16px;
+  --size-subheading: 18px;
+  --size-heading: 24px;
+  --size-display: 32px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+  --radius-full: 999px;
+  --sizing-icon: 16px;
+  --sizing-icon-lg: 24px;
+  --sizing-control: 36px;
+  --sizing-control-lg: 44px;
+  --shadow-floating: 0px 4px 16px 0px rgb(15 23 42 / 0.06);
+  --blur-backdrop-blur: 12px;
+  --text-display-hero-size: 32px;
+  --text-display-hero-line-height: 40px;
+  --text-display-hero-weight: 800;
+  --text-heading-page-size: 24px;
+  --text-heading-page-line-height: 32px;
+  --text-heading-page-weight: 800;
+  --text-subheading-stat-size: 18px;
+  --text-subheading-stat-line-height: 24px;
+  --text-subheading-stat-weight: 600;
+  --text-subheading-glyph-size: 18px;
+  --text-subheading-glyph-line-height: 24px;
+  --text-subheading-glyph-weight: 800;
+  --text-title-card-size: 16px;
+  --text-title-card-line-height: 22px;
+  --text-title-card-weight: 700;
+  --text-title-brand-size: 16px;
+  --text-title-brand-line-height: 22px;
+  --text-title-brand-weight: 800;
+  --text-number-large-size: 16px;
+  --text-number-large-line-height: 22px;
+  --text-number-large-weight: 600;
+  --text-number-table-size: 13px;
+  --text-number-table-line-height: 18px;
+  --text-number-table-weight: 600;
+  --text-number-emphasis-size: 13px;
+  --text-number-emphasis-line-height: 18px;
+  --text-number-emphasis-weight: 700;
+  --text-body-strong-size: 14px;
+  --text-body-strong-line-height: 20px;
+  --text-body-strong-weight: 600;
+  --text-body-default-size: 14px;
+  --text-body-default-line-height: 20px;
+  --text-body-default-weight: 500;
+  --text-body-small-size: 13px;
+  --text-body-small-line-height: 18px;
+  --text-body-small-weight: 500;
+  --text-body-small-regular-size: 13px;
+  --text-body-small-regular-line-height: 18px;
+  --text-body-small-regular-weight: 400;
+  --text-label-strong-size: 12px;
+  --text-label-strong-line-height: 16px;
+  --text-label-strong-weight: 600;
+  --text-label-default-size: 12px;
+  --text-label-default-line-height: 16px;
+  --text-label-default-weight: 500;
+  --text-caption-strong-size: 11px;
+  --text-caption-strong-line-height: 14px;
+  --text-caption-strong-weight: 600;
+  --text-caption-emphasis-size: 11px;
+  --text-caption-emphasis-line-height: 14px;
+  --text-caption-emphasis-weight: 700;
+  --text-caption-medium-size: 11px;
+  --text-caption-medium-line-height: 14px;
+  --text-caption-medium-weight: 500;
+  --text-caption-default-size: 11px;
+  --text-caption-default-line-height: 14px;
+  --text-caption-default-weight: 400;
+  --text-marketing-display-size: 56px;
+  --text-marketing-display-line-height: 62px;
+  --text-marketing-display-weight: 800;
+  --text-marketing-heading-size: 34px;
+  --text-marketing-heading-line-height: 40px;
+  --text-marketing-heading-weight: 800;
+  --text-marketing-quote-size: 26px;
+  --text-marketing-quote-line-height: 36px;
+  --text-marketing-quote-weight: 600;
+  --text-marketing-lead-size: 18px;
+  --text-marketing-lead-line-height: 28px;
+  --text-marketing-lead-weight: 500;
+}
+
+.dark {
+  --bg-page: #141414;
+  --bg-surface: #1e1e1e;
+  --bg-surface-subtle: #262626;
+  --bg-sidebar: #1a1a1a;
+  --bg-hover: #262626;
+  --border-default: #2a2a2a;
+  --border-subtle: #2a2a2a;
+  --text-primary: #e5e5e5;
+  --text-secondary: #a3a3a3;
+  --text-muted: #8a8a8a;
+  --text-nav-inactive: #8a8a8a;
+  --text-on-accent: #ffffff;
+  --accent-primary: #818cf8;
+  --accent-primary-subtle: #333333;
+  --accent-primary-hover: #737ff7;
+  --accent-primary-active: #5f6ce8;
+  --accent-primary-border: #464b8f;
+  --semantic-positive: #10b981;
+  --semantic-positive-subtle: #333333;
+  --semantic-positive-border: #2a2a2a;
+  --semantic-negative: #f87171;
+  --semantic-warning: #fbbf24;
+  --semantic-warning-subtle: #3a2e14;
+  --semantic-warning-border: #5c4a1e;
+  --semantic-negative-subtle: #3b1d1d;
+  --semantic-negative-border: #5c2e2e;
+  --button-secondary-bg: #2a2a2a;
+  --chart-line-portfolio: #3b82f6;
+  --chart-line-benchmark: #a3a3a3;
+  --chart-baseline: #333842;
+  --chart-spark-tint-positive: #092809;
+  --chart-spark-tint-negative: #1c0606;
+  --chart-donut-1: #818cf8;
+  --chart-donut-2: #a5b4fc;
+  --chart-donut-3: #c7d2fe;
+  --chart-donut-4: #e0e7ff;
+  --chart-donut-5: #333842;
+  --chart-candle-up: #2dd4bf;
+  --chart-candle-down: #f0857a;
+  --icon-muted: #8a8a8a;
+  --icon-nav: #b0b0b0;
+}
+
+/* Text styles. Money styles also get tabular figures. */
+.text-display-hero { font-family: var(--font-family); font-size: var(--text-display-hero-size); line-height: var(--text-display-hero-line-height); font-weight: var(--text-display-hero-weight); font-variant-numeric: tabular-nums; }
+.text-heading-page { font-family: var(--font-family); font-size: var(--text-heading-page-size); line-height: var(--text-heading-page-line-height); font-weight: var(--text-heading-page-weight); }
+.text-subheading-stat { font-family: var(--font-family); font-size: var(--text-subheading-stat-size); line-height: var(--text-subheading-stat-line-height); font-weight: var(--text-subheading-stat-weight); }
+.text-subheading-glyph { font-family: var(--font-family); font-size: var(--text-subheading-glyph-size); line-height: var(--text-subheading-glyph-line-height); font-weight: var(--text-subheading-glyph-weight); }
+.text-title-card { font-family: var(--font-family); font-size: var(--text-title-card-size); line-height: var(--text-title-card-line-height); font-weight: var(--text-title-card-weight); }
+.text-title-brand { font-family: var(--font-family); font-size: var(--text-title-brand-size); line-height: var(--text-title-brand-line-height); font-weight: var(--text-title-brand-weight); }
+.text-number-large { font-family: var(--font-family); font-size: var(--text-number-large-size); line-height: var(--text-number-large-line-height); font-weight: var(--text-number-large-weight); font-variant-numeric: tabular-nums; }
+.text-number-table { font-family: var(--font-family); font-size: var(--text-number-table-size); line-height: var(--text-number-table-line-height); font-weight: var(--text-number-table-weight); font-variant-numeric: tabular-nums; }
+.text-number-emphasis { font-family: var(--font-family); font-size: var(--text-number-emphasis-size); line-height: var(--text-number-emphasis-line-height); font-weight: var(--text-number-emphasis-weight); font-variant-numeric: tabular-nums; }
+.text-body-strong { font-family: var(--font-family); font-size: var(--text-body-strong-size); line-height: var(--text-body-strong-line-height); font-weight: var(--text-body-strong-weight); }
+.text-body-default { font-family: var(--font-family); font-size: var(--text-body-default-size); line-height: var(--text-body-default-line-height); font-weight: var(--text-body-default-weight); }
+.text-body-small { font-family: var(--font-family); font-size: var(--text-body-small-size); line-height: var(--text-body-small-line-height); font-weight: var(--text-body-small-weight); }
+.text-body-small-regular { font-family: var(--font-family); font-size: var(--text-body-small-regular-size); line-height: var(--text-body-small-regular-line-height); font-weight: var(--text-body-small-regular-weight); }
+.text-label-strong { font-family: var(--font-family); font-size: var(--text-label-strong-size); line-height: var(--text-label-strong-line-height); font-weight: var(--text-label-strong-weight); }
+.text-label-default { font-family: var(--font-family); font-size: var(--text-label-default-size); line-height: var(--text-label-default-line-height); font-weight: var(--text-label-default-weight); }
+.text-caption-strong { font-family: var(--font-family); font-size: var(--text-caption-strong-size); line-height: var(--text-caption-strong-line-height); font-weight: var(--text-caption-strong-weight); }
+.text-caption-emphasis { font-family: var(--font-family); font-size: var(--text-caption-emphasis-size); line-height: var(--text-caption-emphasis-line-height); font-weight: var(--text-caption-emphasis-weight); }
+.text-caption-medium { font-family: var(--font-family); font-size: var(--text-caption-medium-size); line-height: var(--text-caption-medium-line-height); font-weight: var(--text-caption-medium-weight); }
+.text-caption-default { font-family: var(--font-family); font-size: var(--text-caption-default-size); line-height: var(--text-caption-default-line-height); font-weight: var(--text-caption-default-weight); }
+.text-marketing-display { font-family: var(--font-family); font-size: var(--text-marketing-display-size); line-height: var(--text-marketing-display-line-height); font-weight: var(--text-marketing-display-weight); }
+.text-marketing-heading { font-family: var(--font-family); font-size: var(--text-marketing-heading-size); line-height: var(--text-marketing-heading-line-height); font-weight: var(--text-marketing-heading-weight); }
+.text-marketing-quote { font-family: var(--font-family); font-size: var(--text-marketing-quote-size); line-height: var(--text-marketing-quote-line-height); font-weight: var(--text-marketing-quote-weight); }
+.text-marketing-lead { font-family: var(--font-family); font-size: var(--text-marketing-lead-size); line-height: var(--text-marketing-lead-line-height); font-weight: var(--text-marketing-lead-weight); }
+
+.tnum { font-variant-numeric: tabular-nums; }
