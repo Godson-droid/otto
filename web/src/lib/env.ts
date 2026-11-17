@@ -79,7 +79,17 @@ export function networkByKey(key: string | null | undefined): Network | undefine
   return networks.find((n) => n.key === key);
 }
 
-export const walletConnectProjectId = process.env.NEXT_PUBLIC_WC_PROJECT_ID || undefined;
+/**
+ * Otto's WalletConnect (Reown) project id. A project id is a public client
+ * identifier, not a secret — it ships in the browser bundle either way — so,
+ * following the Reflex precedent, the default lives here in code. That keeps
+ * the hosted Vercel build working with no dashboard env change. Set
+ * NEXT_PUBLIC_WC_PROJECT_ID (web/.env.local locally) to override it.
+ */
+export const WALLETCONNECT_PROJECT_ID = "5940522633ad9fc623dd1fb3f00b05f4";
+
+export const walletConnectProjectId =
+  process.env.NEXT_PUBLIC_WC_PROJECT_ID?.trim() || WALLETCONNECT_PROJECT_ID || undefined;
 
 /** Where the "Source" links and the clone command on the Docs page point. Override it for a fork or a preview deploy. */
 export const repoUrl = (process.env.NEXT_PUBLIC_REPO_URL?.trim() || "https://github.com/qday-io/aevum-starter-kit").replace(/\.git$|\/+$/g, "");
